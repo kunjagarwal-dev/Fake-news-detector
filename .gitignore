@@ -1,0 +1,42 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files, not tracked)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models (large binary files, not tracked)
+models/*.pkl
+models/distilbert_model/
+
+# Logs
+backend/logs/*.log
+
+# Environment variables
+.env
+frontend/.env
+
+# React / Node
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc
+*.log

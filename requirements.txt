@@ -1,0 +1,31 @@
+# requirements.txt
+
+# Core data handling
+pandas
+numpy
+
+# EDA / visualization
+matplotlib
+seaborn
+wordcloud
+
+# Classical ML (Day 3)
+scikit-learn
+xgboost
+joblib
+
+# Deep learning / DistilBERT (Day 4)
+tensorflow
+transformers
+datasets
+
+# Backend (Day 6)
+fastapi
+uvicorn
+pydantic
+
+# Testing
+pytest
+
+# Utilities
+python-dotenv
