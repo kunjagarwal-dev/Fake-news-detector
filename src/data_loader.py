@@ -63,3 +63,9 @@ def load_processed_dataset(path="../data/processed/merged_news.csv"):
     Loads the already-processed/saved dataset directly (skips raw pipeline).
     """
     return pd.read_csv(path)
+
+def load_cleaned_dataset(path="../data/processed/cleaned_news.csv"):
+    """
+    Loads the already-processed/saved dataset directly (skips raw pipeline).
+    """
+    return pd.read_csv(path)
